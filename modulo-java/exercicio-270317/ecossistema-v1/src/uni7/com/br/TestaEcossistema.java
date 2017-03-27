@@ -9,10 +9,9 @@ public class TestaEcossistema {
 		ecossistema.animal.nascePeixe();
 		ecossistema.animal.nascePeixe();
 
-		//ecossistema.animal.urso.buscaUrso();
-		ecossistema.animal.peixe.buscaPeixe();
-
 		ecossistema.animal.imprimeMatriz();
+		
+		ecossistema.animal.buscaUrso();
 	}
 
 }
