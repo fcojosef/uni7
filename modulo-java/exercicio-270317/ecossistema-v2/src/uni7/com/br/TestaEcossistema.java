@@ -3,15 +3,11 @@ package uni7.com.br;
 public class TestaEcossistema {
 	public static void main(String[] args) {
 
-		Ecossistema ecossistema = new Ecossistema();
-
-		ecossistema.animal.nasceUrso();
-		ecossistema.animal.nascePeixe();
-		ecossistema.animal.nascePeixe();
-
-		ecossistema.animal.imprimeMatriz();
-		
-		ecossistema.animal.buscaUrso();
+		Ecossistema eco = new Ecossistema(10, 10);
+		Animal animal = new Animal();
+		//eco.rio[0][0] = urso;
+		animal.popula();
+		animal.imprime();
 	}
 
 }
