@@ -1,7 +1,7 @@
 package uni7.com.br;
 
 public class Urso extends Animal {
-	
+
 	public static int total;
 
 	public Urso() {
