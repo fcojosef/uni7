@@ -4,9 +4,7 @@ public class TestaEcossistema {
 	public static void main(String[] args) {
 
 		Animal ecossistema = new Animal();
-		ecossistema.popula();
-		ecossistema.imprime();
-		
+		ecossistema.populaRio();		
 	}
 
 }
